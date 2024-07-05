@@ -9,17 +9,10 @@ arr1.forEach(item=> sum += item);
 
 console.log(sum);
 
-const lettersArr = ["a", "b", "c", "d", "a", "b", "c", "a", "b","a"];
+const lettersArr = ["a", "b", "c", "d", "b", "b", "c", "a", "b","a"];
 
 let letterCount = {};
 
-lettersArr.forEach(letter => {
-    if(letterCount[letter]) {
-        letterCount[letter]++ ; 
-    }
-    else {
-        letterCount[letter] = 1;
-    }
-})
+lettersArr.forEach(count => letterCount[count]? letterCount[count]++ : letterCount[count] = 1);
 
 console.log(letterCount);

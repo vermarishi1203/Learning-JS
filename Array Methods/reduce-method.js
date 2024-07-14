@@ -5,7 +5,7 @@
 
 const numArr = [1, 2, 3, 4, 5];
 
-console.log(numArr.reduce((accumulator, value) => accumulator + value), 0);
+console.log(numArr.reduce((accumulator, value) => accumulator + value, 0));
 
 //getting the biggest number from the array
 
@@ -36,3 +36,4 @@ const productList = [
 ];
 
 console.log(productList.reduce((totalValue, product) => totalValue + product.price* product.quantity,0));
+

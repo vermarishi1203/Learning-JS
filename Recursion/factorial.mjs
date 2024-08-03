@@ -12,7 +12,9 @@ console.log(`The factorial of ${inputNum} is: ${getFactorial(inputNum)}`);
 
 function getFactorial ( input ) {
 
-    if (input == 0 || input == 1) return 1;
+    if (input < 0 || isNaN(input) || input === "" ) return getFactorial(prompt(`Please enter a number greater than 0: `));
+
+    if (input <= 1) return 1;
 
     return input * getFactorial(input-1);
 

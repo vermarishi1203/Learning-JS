@@ -17,3 +17,5 @@ function calculateFibonacciNum (inputIndex) {
     return calculateFibonacciNum(inputIndex-1) + calculateFibonacciNum(inputIndex-2);
 
 };
+
+//something's wrong, can't quite figure out what

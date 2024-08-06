@@ -20,9 +20,24 @@ console.log(`The number of unique paths in this grid are: ${uniquePaths}`);
 
 function calculateUniquePaths ( n , m ) {
 
+    if( n == 0 || m == 0 || n === "" || m === "" || isNaN(n) || isNaN(m)) {
+
+        console.log("Please enter a valid value for rows and columns!");
+
+        const n = prompt("Input the number of rows of the grid: ");
+
+        const m = prompt("Input the number of colums of the grid: ");
+
+        console.log(`The dimensions of the grid are ${n}x${m}.`);
+
+        return calculateUniquePaths( n, m );
+
+    };
+
     if ( n == 1 || m == 1 ) return 1; // if i use === operator, it doesnt work for the base case inputs
 
     return calculateUniquePaths( n, m-1 ) + calculateUniquePaths( n-1, m );
 
 };
+
 

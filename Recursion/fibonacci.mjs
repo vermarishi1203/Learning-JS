@@ -12,10 +12,11 @@ console.log(`The number at the ${inputIndex}th index in the fibonacci series is:
 
 function calculateFibonacciNum (inputIndex) {
 
-    if( inputIndex <= 1) return 1;
+    if( inputIndex === "" || inputIndex < 0 || isNaN(inputIndex))  return calculateFibonacciNum(prompt("Please enter a valid input: "));
+
+    if( inputIndex == 0 || inputIndex == 1 ) return inputIndex;
 
     return calculateFibonacciNum(inputIndex-1) + calculateFibonacciNum(inputIndex-2);
 
 };
 
-//something's wrong, can't quite figure out what

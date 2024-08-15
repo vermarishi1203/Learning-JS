@@ -77,4 +77,13 @@
 
 // console.log(/[^01]/.test("01010111111001"));
 
+// // International Characters
+
+// // \p{L}	Any letter
+// // \p{N}	Any numeric character
+// // \p{P}	Any punctuation character
+// // \P{L}	Any nonletter (uppercase P inverts)
+// // \p{Script=Hangul}	Any character from the given script
+
+// console.log("these are used because normal built-in shortcuts make errors in other languages than english");
 

@@ -85,5 +85,13 @@
 // // \P{L}	Any nonletter (uppercase P inverts)
 // // \p{Script=Hangul}	Any character from the given script
 
-// console.log("these are used because normal built-in shortcuts make errors in other languages than english");
+// console.log(/\w/u.test("é"));
+
+// console.log(/\p{L}/u.test("é"));
+
+// console.log(/\p{L}/u.test("!123"));
+
+console.log(/\p{Script=Greek}/u.test("α"));
+
+console.log(/\p{Script=Hindi}/u.test("α"));
 

@@ -91,7 +91,9 @@
 
 // console.log(/\p{L}/u.test("!123"));
 
-console.log(/\p{Script=Greek}/u.test("α"));
+// console.log(/\p{Script=Greek}/u.test("α"));
 
-console.log(/\p{Script=Hindi}/u.test("α"));
+// console.log(/\p{Script=Arabic}/u.test("α"));
+
+
 

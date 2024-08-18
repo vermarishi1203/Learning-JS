@@ -95,5 +95,23 @@
 
 // console.log(/\p{Script=Arabic}/u.test("α"));
 
+// // Repeating parts of a pattern
 
+// console.log(/\d+/.test("1234"));
+
+// console.log(/\d+/.test(""));
+
+// console.log(/\d*/.test("1234"));
+
+// console.log(/\d*/.test(""));
+
+// console.log(/colou?r/.test("colour"));
+
+// console.log(/colou?r/.test("color"));
+
+// const validDate = /\d{1,2}-\d{1,2}-\d{4}/;
+
+// console.log(validDate.test("12-03-2001"));
+
+// console.log(validDate.test("4-5-1197"));
 

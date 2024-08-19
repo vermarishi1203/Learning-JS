@@ -115,3 +115,10 @@
 
 // console.log(validDate.test("4-5-1197"));
 
+// // Grouping Subexpressions
+
+// const minionHello = /hello+(bello+)+/i;
+
+// console.log(minionHello.test("helloBellobelloooobelloooBello"));
+
+

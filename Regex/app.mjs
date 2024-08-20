@@ -121,4 +121,11 @@
 
 // console.log(minionHello.test("helloBellobelloooobelloooBello"));
 
+// // Exec and match methods of regex and strings respectively
+
+// console.log(/yes/.exec("oh yes"));
+
+// console.log("oh no".match(/no/));
+
+
 

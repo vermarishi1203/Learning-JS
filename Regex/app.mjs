@@ -127,5 +127,13 @@
 
 // console.log("oh no".match(/no/));
 
+// // Matchs and Groups and corresponding values in the output array
 
+// console.log(/#(\w{6})/.exec("the hex color code of this shade is #fff123")); // when group is matched
+
+// console.log(/colo(u)?r/.exec("the hex color code of this shade is #fff123")); // when group is not matched 
+
+// console.log(/(\d)+/.exec("the hex color code of this shade is #fff123")); // when group is matched multiple times
+
+// console.log(/colo(?:u)?r/.exec("the hex color code of this shade is #fff123")); // when you don't want group matches to show up in the array of matches, use ?: after opening ()
 

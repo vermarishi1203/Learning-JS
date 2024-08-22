@@ -137,3 +137,14 @@
 
 // console.log(/colo(?:u)?r/.exec("the hex color code of this shade is #fff123")); // when you don't want group matches to show up in the array of matches, use ?: after opening ()
 
+// The Date class
+
+console.log( new Date()); // current date and time (GMT)
+
+console.log( new Date(2020, 11, 26)) // specified date for Dec 25, 2020
+
+console.log( new Date(2020, 11, 25, 23, 59)) // specified date and Time for Dec 25, 2020
+
+console.log( new Date("2020-12-25T23:59")); // standardised format of line 146
+
+

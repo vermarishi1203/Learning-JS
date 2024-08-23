@@ -147,4 +147,26 @@ console.log( new Date(2020, 11, 25, 23, 59)) // specified date and Time for Dec 
 
 console.log( new Date("2020-12-25T23:59")); // standardised format of line 146
 
+console.log( new Date(2020, 11, 26).getTime()); // to get the no. of miliseconds from 1970 to specified date
+
+console.log( new Date(1608921000000)); // getting date using no. of miliseconds from 1970 to that date
+
+// some of the methods of the date objects
+
+console.log( new Date().getFullYear());
+
+console.log( new Date().getMonth());
+
+console.log( new Date().getDate());
+
+console.log( new Date().getDay());
+
+console.log( new Date().getHours());
+
+console.log( new Date().getMinutes());
+
+console.log( new Date().getSeconds());
+
+console.log( new Date().getMilliseconds());
+
 

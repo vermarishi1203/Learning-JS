@@ -137,36 +137,41 @@
 
 // console.log(/colo(?:u)?r/.exec("the hex color code of this shade is #fff123")); // when you don't want group matches to show up in the array of matches, use ?: after opening ()
 
-// The Date class
+// // The Date class
 
-console.log( new Date()); // current date and time (GMT)
+// console.log( new Date()); // current date and time (GMT)
 
-console.log( new Date(2020, 11, 26)) // specified date for Dec 25, 2020
+// console.log( new Date(2020, 11, 26)) // specified date for Dec 25, 2020
 
-console.log( new Date(2020, 11, 25, 23, 59)) // specified date and Time for Dec 25, 2020
+// console.log( new Date(2020, 11, 25, 23, 59)) // specified date and Time for Dec 25, 2020
 
-console.log( new Date("2020-12-25T23:59")); // standardised format of line 146
+// console.log( new Date("2020-12-25T23:59")); // standardised format of line 146
 
-console.log( new Date(2020, 11, 26).getTime()); // to get the no. of miliseconds from 1970 to specified date
+// console.log( new Date(2020, 11, 26).getTime()); // to get the no. of miliseconds from 1970 to specified date
 
-console.log( new Date(1608921000000)); // getting date using no. of miliseconds from 1970 to that date
+// console.log( new Date(1608921000000)); // getting date using no. of miliseconds from 1970 to that date
 
-// some of the methods of the date objects
+// // some of the methods of the date objects
 
-console.log( new Date().getFullYear());
+// console.log( new Date().getFullYear());
 
-console.log( new Date().getMonth());
+// console.log( new Date().getMonth());
 
-console.log( new Date().getDate());
+// console.log( new Date().getDate());
 
-console.log( new Date().getDay());
+// console.log( new Date().getDay());
 
-console.log( new Date().getHours());
+// console.log( new Date().getHours());
 
-console.log( new Date().getMinutes());
+// console.log( new Date().getMinutes());
 
-console.log( new Date().getSeconds());
+// console.log( new Date().getSeconds());
 
-console.log( new Date().getMilliseconds());
+// console.log( new Date().getMilliseconds());
 
+// extracting date from a string
 
+function getDate( anyStr) {
+
+    
+}

@@ -171,7 +171,14 @@
 
 // extracting date from a string
 
+console.log(getDate("8-25-2024"));
+
 function getDate( anyStr) {
 
-    
-}
+    let [_, month, day, year] = /(\d{1,2})-(\d{1,2})-(\d{4})/.exec(anyStr);
+
+    return new Date( year, month - 1, day); //for some reason in india,the date shows previous day date, maybe because gmt+5:30 keeps us a day ahead
+
+};
+
+

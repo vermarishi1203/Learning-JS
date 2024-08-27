@@ -187,3 +187,5 @@ console.log("read about it but couldn't understand it, will try again tomorrow."
 
 console.log("had a tarea today, and a lot of other deberes, couldn't get time to read up on this , will definately do it tommorow");
 
+
+// why does git not count the last commit ????????????

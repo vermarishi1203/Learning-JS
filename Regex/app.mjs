@@ -171,7 +171,7 @@
 
 // // extracting date from a string
 
-// console.log(getDate("8-25-2024"));
+// console.log(getDate("8-28-2024"));
 
 // function getDate( anyStr) {
 
@@ -183,9 +183,11 @@
 
 // boundaries and look-ahead
 
+// boundaries
 
-console.log(/a(?=e)/.exec("braeburn"));
-
-console.log(/a(?! )/.exec("a b"));
+console.log(/6^/.test("3455"));
+console.log(/6^/.test("s65"));
+console.log(/6^/.test("6s88"));
+console.log(/6^/.test("6s"));
 
 

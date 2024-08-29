@@ -181,13 +181,18 @@
 
 // };
 
-// boundaries and look-ahead
+// // boundaries
 
-// boundaries
+// console.log(/6^/.test("abs"));
 
-console.log(/6^/.test("3455"));
-console.log(/6^/.test("s65"));
-console.log(/6^/.test("6s88"));
-console.log(/6^/.test("6s"));
+// console.log(/6^/.test("s65"));
 
+// console.log(/6^/.test("6s88"));
 
+// console.log(/6^/.test("6s"));
+
+// Look-ahead
+
+console.log(/e(?=l)/.exec("hello"));
+
+console.log(/l(?!l)/.exec("hello"));

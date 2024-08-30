@@ -191,8 +191,12 @@
 
 // console.log(/6^/.test("6s"));
 
-// Look-ahead
+// // Look-ahead
 
-console.log(/e(?=l)/.exec("hello"));
+// console.log(/e(?=l)/.exec("hello"));
 
-console.log(/l(?!l)/.exec("hello"));
+// console.log(/l(?!l)/.exec("hello"));
+
+console.log("but how to implement it in the date error we recieved???");
+
+

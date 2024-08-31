@@ -183,9 +183,9 @@
 
 // // boundaries
 
-// console.log(/6^/.test("abs"));
+// console.log(/^68$/.test("abs"));
 
-// console.log(/6^/.test("s65"));
+// console.log(/^6/.test("s65"));
 
 // console.log(/6^/.test("6s88"));
 
@@ -197,6 +197,11 @@
 
 // console.log(/l(?!l)/.exec("hello"));
 
-console.log("but how to implement it in the date error we recieved???");
+// choice patterns
+
+console.log(/\d+ (apple|orange|banana)s?/.test("6 apples"));
+
+console.log(/\d+ (apple|orange|banana)s?/.test("6 birds"));
+
 
 

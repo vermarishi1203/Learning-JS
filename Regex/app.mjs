@@ -197,11 +197,15 @@
 
 // console.log(/l(?!l)/.exec("hello"));
 
-// choice patterns
+// // choice patterns
 
-console.log(/\d+ (apple|orange|banana)s?/.test("6 apples"));
+// console.log(/\d+ (apple|orange|banana)s?/.test("6 apples"));
 
-console.log(/\d+ (apple|orange|banana)s?/.test("6 birds"));
+// console.log(/\d+ (apple|orange|banana)s?/.test("6 birds"));
 
-console.log("i have a very imp exam tommorow, need to fill my sleep cup tonight, will have to pass on coding today, feel horrible")
+// Flags 
+
+console.log(/the/g.exec("The cat is out of the bag because the kid turned the bag upside down on the table."));
+
+console.log(/the/i.exec("The cat is out of the bag because the kid turned the bag upside down on the table."));
 

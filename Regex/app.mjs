@@ -203,3 +203,4 @@
 
 // console.log(/\d+ (apple|orange|banana)s?/.test("6 birds"));
 
+console.log("hwllo workd, i got sick, i got struck with viral fever, cant even get out of bed, sorry no code today :(");

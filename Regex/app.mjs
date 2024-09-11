@@ -203,12 +203,8 @@
 
 // console.log(/\d+ (apple|orange|banana)s?/.test("6 birds"));
 
-console.log("hwllo workd, i got sick, i got struck with viral fever, cant even get out of bed, sorry no code today :(");
+//replace method
 
-console.log("day 3 of fever, halat is murgi kharab, i dont know what i am sahing, what am i typind, oh my goad.....");
+console.log("hello world".replace(/l/, "g"));
 
-console.log("day 4, there is some improvement but nowhere enough to put myself in front of a screen");
-
-console.log("day 5, another day of empty commit, hope this ends soon");
-
-console.log("day 6, meds ran out, significant improvement in health, hope this will be the last empty commit");
+console.log("hello world".replace(/l/g, "g"));
